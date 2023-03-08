@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @media screen and (min-width:0px) and (max-width:420px){
     body{
-        margin: 0px;}
+        margin: 0px;
+    }
 
-    header{
+    header
+    {
         margin: 0px;
         padding: 0px;
-        background-color: rgba(19, 153, 210, 1) ;}
-
+        background-color: rgba(19, 153, 210, 1) ;
+    }
     h1{ 
         margin: 0px;
         text-align: center;
@@ -17,18 +19,49 @@
         font-size:40px;
         color: white;
         position: relative;
-        top: 30px;}
-
+        top: 30px;
+    }
     .perfil{
         display: block;
         margin: auto;
         position:relative;
-        top: 50px;}
-    
+        top: 50px;
+    }
     .elipse{
         display: block;
         margin: auto;
     }
+    .imgelipse{
+        height: 95px;
+    }
+    .linea {
+        border-top: 2px solid rgba(187, 187, 187, 1);
+        height: 2px;
+        max-width: 200px;
+        padding: 0;
+        margin: 2px auto 5px auto;
+        position:relative;
+        right: 60px;
+      }
+    .nombre{
+        text-align: center;
+        font-family:'Tangerine', cursive;
+        font-weight: normal;
+        letter-spacing: 0.04em;
+        color: rgba(19, 153, 210, 1);
+        font-size: 53px;
+        margin: 0px;
+    }
+      .linea2 {
+        border-top: 2px solid rgba(187, 187, 187, 1);
+        height: 2px;
+        max-width: 200px;
+        padding: 0;
+        margin: 0px auto 0 auto;
+        position: relative;
+        left: 60px;
+      }
+          
 
 
 }
