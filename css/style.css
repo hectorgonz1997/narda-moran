@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@media screen and (min-width:0px) and (max-width:420px){
+    body{
+        margin: 0px;}
+
+    header{
+        margin: 0px;
+        padding: 0px;
+        background-color: rgba(19, 153, 210, 1) ;}
+
+    h1{ 
+        margin: 0px;
+        text-align: center;
+        font-family:'Tangerine', cursive;
+        font-weight: normal;
+        letter-spacing: 0.065em;
+        font-size:40px;
+        color: white;
+        position: relative;
+        top: 30px;}
+
+    .perfil{
+        display: block;
+        margin: auto;
+        position:relative;
+        top: 50px;}
+    
+    .elipse{
+        display: block;
+        margin: auto;
+    }
+
+
+}
