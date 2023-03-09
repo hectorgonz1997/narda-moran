@@ -61,7 +61,26 @@
         position: relative;
         left: 60px;
       }
+    .import{
+        text-align: center;
+        margin-top: 35px;
+        padding: 0px 71px 0px 71px;
+        color:rgba(91, 91, 91, 1);
+        font-family: 'georgia', serif;
+        font-style: italic;
+        line-height: 157.02%;
+        letter-spacing: 0.025em;
+        font-size: 17px;
+    }
+    .png1 {
+        position: absolute;
+    }
+    .png2 {
+        float: right;
+        position: relative;
+        bottom: 230px;
+    }
+}
           
 
 
-}
