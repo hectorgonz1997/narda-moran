@@ -201,7 +201,7 @@
         letter-spacing: 0.035em;
         font-weight: 400;
         font-size: 18px;
-        margin-bottom: 53px;
+        margin-bottom: 25px;
     }
     .container {
         display: flex;
@@ -209,7 +209,7 @@
         width: auto;
         flex-wrap: nowrap;
         align-items: center;
-        gap: 30px;
+        gap: 10px;
     }
     .blue-g1{
         position: absolute;
@@ -227,6 +227,13 @@
     .blue-g3{
         position: relative;
         bottom: 395px;
+    }
+    .container > p{
+        font-size: 50px;
+        margin-bottom: 0px;
+        font-family: tangerine, cursive;
+        color: rgba(7, 124, 189, 1); 
+        text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.25);
     }
 }
           
