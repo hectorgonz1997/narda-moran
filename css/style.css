@@ -201,6 +201,15 @@
         letter-spacing: 0.035em;
         font-weight: 400;
         font-size: 18px;
+        margin-bottom: 53px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 30px;
     }
 }
           
