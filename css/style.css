@@ -217,11 +217,16 @@
     }
     .imgtaller{
         z-index: 1;
+        width: 300px;
     }
     .blue-g2{
         float: right;
         position: relative;
-        bottom: 530px;
+        bottom: 1000px;
+    }
+    .blue-g3{
+        position: relative;
+        bottom: 395px;
     }
 }
           
