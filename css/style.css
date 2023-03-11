@@ -211,6 +211,18 @@
         align-items: center;
         gap: 30px;
     }
+    .blue-g1{
+        position: absolute;
+        z-index: 0;
+    }
+    .imgtaller{
+        z-index: 1;
+    }
+    .blue-g2{
+        float: right;
+        position: relative;
+        bottom: 530px;
+    }
 }
           
 
