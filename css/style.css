@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @media screen and (min-width:0px) and (max-width:480px){
+    
     body{
         margin: 0px;
+        background-color: white;
     }
 
     header{
@@ -214,19 +216,21 @@
     .blue-g1{
         position: absolute;
         z-index: 0;
+        bottom: -289%;
     }
     .imgtaller{
         z-index: 1;
         width: 300px;
     }
     .blue-g2{
-        float: right;
-        position: relative;
-        bottom: 1000px;
+        position: absolute;
+        bottom: -372%;
+        left: 392px;
     }
     .blue-g3{
-        position: relative;
-        bottom: 395px;
+        position: absolute;
+        bottom: -500%;
+
     }
     .container > p{
         font-size: 50px;
@@ -235,6 +239,20 @@
         color: rgba(7, 124, 189, 1); 
         text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.25);
     }
+    .servicio{
+        display: flex;
+        margin-top: 100px;
+    }
+    .servicio > p{
+        text-align: center;
+        font-family: Georgia;
+        font-style: italic;
+        letter-spacing: 0.035em;
+        line-height: 150.52%;
+        color: rgba(91, 91, 91, 1);
+        padding: 0px 25px;
+    }
+
 }
           
 
