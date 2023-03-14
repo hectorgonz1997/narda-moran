@@ -216,20 +216,23 @@
     .blue-g1{
         position: absolute;
         z-index: 0;
-        bottom: -289%;
+        
     }
     .imgtaller{
         z-index: 1;
         width: 300px;
     }
     .blue-g2{
-        position: absolute;
-        bottom: -372%;
-        left: 304px;
+        position: relative;
+        bottom:1350px;
+        float: right;
+
     }
     .blue-g3{
-        position: absolute;
-        bottom: -500%;
+        position: relative;
+        bottom: 574px;
+        float: left;
+
 
     }
     .container > p{
