@@ -225,7 +225,7 @@
     .blue-g2{
         position: absolute;
         bottom: -372%;
-        left: 392px;
+        left: 304px;
     }
     .blue-g3{
         position: absolute;
@@ -242,6 +242,7 @@
     .servicio{
         display: flex;
         margin-top: 100px;
+        margin-bottom: 65px;
     }
     .servicio > p{
         text-align: center;
@@ -252,6 +253,50 @@
         color: rgba(91, 91, 91, 1);
         padding: 0px 25px;
     }
+    .pasto1{
+        position: absolute;
+        left: 10px;
+    }
+    .pasto2{
+        position: relative;
+        left:190px;
+        top: 80px;
+    }
+    .letrapasto{
+        color:rgba(7, 124, 189, 1);
+        font-family:'Georgia';
+        font-style: italic;
+        font-size: 15px;
+        letter-spacing:0.035em;
+        transform: rotate(-4deg);
+        position: relative;
+        left: 27px;
+        width: 380px;
+    }
+    .cortepelo{
+        margin-top: 100px;
+    }
+    .cabello1{
+        position: absolute;
+        left: 10px;
+    }
+    .cabello2{
+        position: relative;
+        left: 189px;
+        top: 37px;
+    }
+    .letracabello{
+        color:rgba(7, 124, 189, 1);
+        font-family:'Georgia';
+        font-style: italic;
+        font-size: 15px;
+        letter-spacing:0.035em;
+        transform: rotate(-4deg);
+        position: relative;
+        left: 27px;
+        width: 380px;
+    }
+
 
 }
           
